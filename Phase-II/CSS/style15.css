@@ -1,0 +1,18 @@
+.bullet-list {
+    list-style-type: circle;
+}
+
+.custom-bullet-list { 
+    list-style: none; 
+}
+
+.custom-bullet-list li::before {
+    content: "\2022";
+    color: #007bff; 
+    font-weight: bold; 
+    margin-right: 5px; 
+}
+ 
+.no-style-list {
+    list-style: none; 
+}
